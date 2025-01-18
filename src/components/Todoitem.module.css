@@ -1,0 +1,12 @@
+.kg-row{
+    margin-bottom: 30px;
+    border-bottom: solid rgb(243, 240, 240) 2px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    text-align: left;
+}
+.hello{
+    display: flex;
+    flex-direction: row-reverse;
+}

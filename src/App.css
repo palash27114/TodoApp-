@@ -1,0 +1,22 @@
+
+.Todo-container{
+    width: 100vw;
+    height: 100vh;
+   padding: 30px;
+    background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 7%, rgba(2,2,101,1) 82%, rgba(18,117,138,1) 99%);
+}
+.Todo-container input{
+    width: 100%;
+}
+.Sub{
+    padding: 50px;
+    color:azure;
+    font-size: 35px;
+    font-weight: 500;
+    border: solid black 2px;
+}
+
+.Sub >div:first-child{
+    text-align: left;
+}
