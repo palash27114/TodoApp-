@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { IoIosAddCircleOutline } from "react-icons/io";
 
 function AddTodo({ ADDNew }) {
 
@@ -31,7 +32,7 @@ const handleaddbutton=()=>{
       else{
         handleaddbutton();
       } 
-  }} >Add</button></div>
+  }} ><IoIosAddCircleOutline /></button></div>
   </div>
 }
 export default AddTodo;
